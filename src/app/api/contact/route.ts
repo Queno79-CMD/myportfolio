@@ -59,7 +59,7 @@ export async function POST(req: Request) {
     if (!data.success) {
       console.error("[contact] Web3Forms error", data);
       return NextResponse.json(
-        { error: "Message received but delivery failed. Please try again later." },
+        { error: data.message || "Message received but delivery failed. Please try again later." },
         { status: 502 },
       );
     }
