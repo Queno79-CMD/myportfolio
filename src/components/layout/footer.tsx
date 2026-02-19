@@ -10,7 +10,7 @@ export function Footer() {
     <footer className="border-t border-white/5 py-10">
       <Container className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-slate-400">
-          © {year} {siteConfig.name}. All rights reserved.
+          © {year} {siteConfig.name}.APPROVED
         </p>
         <div className="flex items-center gap-5">
           <Link

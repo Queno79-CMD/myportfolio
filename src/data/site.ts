@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Cybersecurity & IT Student",
   tagline: "Building secure systems. Breaking vulnerabilities. Learning relentlessly.",
   description:
-    "Personal portfolio of a Cybersecurity & IT student focused on secure systems, network defense, and practical labs.",
+    "Cybersecurity & IT student focused on secure systems, network defense, and practical labs.",
   url: "https://kipronoportfolio.vercel.app/",
   email: "kipronoenock547@gmail.com",
   socials: {
