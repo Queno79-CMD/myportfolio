@@ -1,24 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Personal Portfolio (Cybersecurity Theme)
+
+Modern, production-ready portfolio built with **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**.
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and run the dev server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customize
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Basic info + links**: `src/data/site.ts`
+- **Projects**: `src/data/projects.ts`
+- **Skills**: `src/data/skills.ts`
+
+## Contact Form (API)
+
+The contact form posts to `POST /api/contact`.
+
+- **Works without configuration**: returns success and logs messages on the server.
+- **Optional email delivery (Resend)**: copy `.env.example` to `.env.local` and set:
+  - `RESEND_API_KEY`
+  - `CONTACT_TO_EMAIL`
+  - `CONTACT_FROM_EMAIL`
 
 ## Learn More
 
