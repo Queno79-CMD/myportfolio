@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Building secure systems. Breaking vulnerabilities. Learning relentlessly.",
   description:
     "Personal portfolio of a Cybersecurity & IT student focused on secure systems, network defense, and practical labs.",
-  url: "https://example.com",
+  url: "https://kipronoportfolio.vercel.app/",
   email: "kipronoenock547@gmail.com",
   socials: {
     github: "https://github.com/Queno79-CMD",

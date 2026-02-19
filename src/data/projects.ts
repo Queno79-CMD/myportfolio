@@ -19,7 +19,7 @@ export const projects: Project[] = [
     description:
       "Encodes encrypted messages into images with integrity checks for covert and tamper-evident communication.",
     techStack: ["Python", "Cryptography", "PIL/OpenCV"],
-    githubUrl: "https://github.com/your-handle/stego-secure-messaging",
+    githubUrl: "https://github.com/Queno79-CMD/SECURE",
   },
   {
     title: "Linux Server Hardening Lab",

@@ -78,7 +78,7 @@ export const certifications: CertificationItem[] = [
 export const services: ServiceItem[] = [
   {
     title: "Web Development",
-    items: ["Frontend (HTML5, CSS3, JS)", "Backend (PHP, MySQL, PostgreSQL)", "Secure Dashboards & Login Systems"]
+    items: ["Frontend (HTML5, CSS, JS)", "Backend (PHP, MySQL, PostgreSQL)", "Secure Dashboards & Login Systems"]
   },
   {
     title: "Cybersecurity Solutions",
